@@ -16,7 +16,7 @@ app.use(cors());         // Permite que o Front-end (Vercel) acesse esta API
 const supabase = createClient(process.env.SUPABASE_URL, process.env.SUPABASE_KEY);
 
 // Rota de Teste (Para verificar se o servidor está online no Render)
-app.get('/', (req, res) => res.send('API da academia funcionando'));
+app.get('/', (req, res) => res.send('API GymTracker Operacional 🚀'));
 
 // --- 3. ROTAS DA API (ENDPOINTS) ---
 
